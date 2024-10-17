@@ -1,6 +1,6 @@
 {
   "name": "TheengsGateway",
-  "version": "1.11.4",
+  "version": "1.11.5",
   "slug": "theengsgw",
   "description": "TheengsGateway HA Add-on",
   "url": "https://github.com/mihsu81/addon-theengsgw",
@@ -65,7 +65,7 @@
     "SCAN_DUR": "int?",
     "TIME_BETWEEN": "int?",
     "TRACKER_TIMEOUT": "int?",
-    "LOG_LEVEL": "str?",
+    "LOG_LEVEL": "list(DEBUG|INFO|WARNING|ERROR|CRITICAL)?",
     "LWT_TOPIC": "str?",
     "DISCOVERY": "bool?",
     "DISCOVERY_TOPIC": "str?",
